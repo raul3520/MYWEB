@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webpage
+  labels:
+    app: web-page
+    type: demo
+spec:
+  containers:
+    - name: webpage
+      image: docker.io/raul3520/mywebapp:VER
